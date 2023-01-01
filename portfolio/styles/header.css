@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    padding-left: 240px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #040B14;
+    
+}
+.div-header-img{
+position: fixed;
+top: 10px;
+left: 75px;
+
+
+
+}
+.header-img{
+border-radius: 80px;
+border-width:7px ;
+border-style:solid ;
+border-color:#2C2F3F;
+height: 100px;
+}
+
+.name{
+color: white;
+position: fixed;
+top: 100px;
+left: 35px;
+
+}
+.social-icons{
+position: fixed;
+width: 150px;
+height: 60px;
+left: 50px;
+top: 150px;
+display: flex;
+align-items: center;
+justify-content:space-between ;
+}
+A{
+    text-decoration: none;
+ 
+}
+.social-button{
+
+margin-left: 5px;
+height: 35px;
+width: 35px;
+border-radius: 35px ;
+background-color: #2C2F3F;
+padding: 0;
+display: flex;
+align-items:center;
+
+}
+.social-button:hover{
+background-color: #149DDD;
+}
+.icon-img{
+margin-top: 3px;
+margin-left: 5px;
+height: 25px;
+
+}
+.menu{
+position: fixed;
+top: 210px;
+left: 35px;
+width: 180px;
+bottom: 50px;
+
+
+
+}
+.link{
+
+margin-top: 30px;
+height: 50px;
+display: flex;
+align-items: center;
+color: #676767;
+
+}
+.link:hover{
+color: white;}
+.link-home{
+margin-top: 30px;
+height: 50px;
+display: flex;
+align-items: center;
+color: white;
+}
+.menu-icon{
+margin-right: 20px;
+height: 30px;}
+.copyright{
+
+position: fixed;
+bottom: 5px;
+left: 35px;
+color: white;
+display: flex;
+align-items: center;
+font-size: small;
+}
+.hero-bg{
+width: 100%;
+height: 750px;
+}

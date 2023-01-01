@@ -1,0 +1,112 @@
+.first{
+    
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    flex-direction: row;
+    
+    padding-bottom: 5%;
+
+}
+.img-first{
+    
+    height:200px;
+    
+    margin-left: 10%;
+    border-style:solid ;
+    border-width: 5px; ;
+    border-color:#2C2F3F;
+    background-color: #20222d;
+    border-radius: 20px; 
+}
+
+.typewriter .main-h1 {
+  color: white ;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+.second{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.center-first{
+    
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+}
+.divider{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    
+}
+hr{
+    border: 2px solid  #149DDD;
+}
+h1{
+    margin-bottom: 0;
+}
+.paragraph-span{
+    font-family: Roboto,Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 120%;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.button-cv-div{
+    
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    flex-direction: row;
+    padding-bottom: 10%;
+}
+.button-cv{
+    width: 30%;
+    border-style:solid ;
+    border-color: white ;
+    background-color: #0A1828;
+    height: 5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    flex-direction: row;
+    
+    font-size: large;
+}
+.button-cv:hover{
+    background-color: #243141;
+    cursor: pointer;
+    
+}
+.blue-box{
+    background-color: #0A1828 ;
+
+}
